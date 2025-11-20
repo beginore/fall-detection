@@ -6,7 +6,7 @@ effectiveness of combining Computer Vision (RGB images) and Wearable
 Sensors (accelerometer data) to improve detection accuracy and
 reliability compared to single-modality approaches.
 
-📋 **Project Overview** Falls are a leading cause of injury and
+**Project Overview** Falls are a leading cause of injury and
 mortality among the elderly population. Traditional systems often suffer
 from:
 
@@ -25,7 +25,7 @@ fusion strategies:
 3.  **Logical Fusion (Rule-based)** --- A logical OR rule to maximize
     Recall.
 
-🧠 **System Architecture**
+**System Architecture**
 
 ### 1. Vision Branch (CNN)
 
@@ -39,7 +39,7 @@ fusion strategies:
 -   **Backbone:** 1D-CNN + LSTM
 -   **Function:** Detects sudden acceleration changes typical for falls.
 
-📂 **Dataset Structure** The project uses the **UP-Fall Detection
+**Dataset Structure** The project uses the **UP-Fall Detection
 Dataset**.\
 Subject used: **Subject 1**
 
@@ -57,7 +57,7 @@ Subject used: **Subject 1**
     ├── model.ipynb
     └── README.md
 
-🚀 **Installation and Usage**
+**Installation and Usage**
 
 ### Prerequisites
 
